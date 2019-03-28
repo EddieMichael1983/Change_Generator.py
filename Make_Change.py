@@ -1,8 +1,6 @@
 #make_change.py
-import random
-
-unconverted_pennies = input("Enter an amount of money in pennies:  E.G. 136 for $1.36: ")
-unconverted_pennies = int(unconverted_pennies)
+unconverted_pennies = float(input("How much money? Use a decimal and no dollar sign. EG 7.48 for $7.48: ")) * 100
+unconverted_pennies = round(unconverted_pennies)
 
 quarters = unconverted_pennies // 25
 unconverted_pennies = unconverted_pennies % 25
