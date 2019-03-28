@@ -9,7 +9,6 @@ unconverted_pennies = unconverted_pennies % 10
 nickels = unconverted_pennies // 5
 unconverted_pennies = unconverted_pennies % 5
 
-
 print(f'{quarters} quarters')
 print(f'{dimes} dimes')
 print(f'{nickels} nickels')
